@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 475, in script
+    jump state_regulation
+ScriptError: could not find label 'state_regulation'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 475, in script
+    jump state_regulation
+  File "/Users/dylanbissonette/Desktop/renpy-8.2.1-sdk/renpy/ast.py", line 1698, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/dylanbissonette/Desktop/renpy-8.2.1-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'state_regulation'.
+
+macOS-14.4.1-arm64-arm-64bit arm64
+Ren'Py 8.2.1.24030407
+Nuclear Reactor Dating Simulator 1.0
+Mon May  6 21:58:59 2024
